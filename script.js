@@ -1,11 +1,11 @@
 function compute()
 {
-		//Create variables from input
+		
     let principal = document.getElementById("principal").value;
     let rate = document.getElementById("rate").value;
     let years = document.getElementById("years").value;
     
-    //do math
+
     let interest = principal * years * rate / 100;
     let endYear = new Date().getFullYear() + parseInt(years);
 
